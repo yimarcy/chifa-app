@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './containers/home/Home'
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Home />
+      <Link to="/invoices">Invoices</Link> |{" "}
+        <Link to="/expenses">Expenses</Link>
     </div>
   );
 }
