@@ -5,7 +5,7 @@ import styles from './home.scss';
 const Home = ({}) => {
 
     return (
-        <div>"testing"</div>
+        <div>"HOME testing"</div>
     );
 };
 
