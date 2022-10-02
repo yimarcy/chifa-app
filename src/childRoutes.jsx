@@ -9,6 +9,7 @@ const childRoutes =
   <Route index element={<Home />} />
   <Route path="home" element={<Home />} />
   <Route path="about" element={<About />} />
+  <Route path="expenses" element={"expenses!"} />
   <Route path="*" element={<NoMatching />} />
 </Routes>
 ;
